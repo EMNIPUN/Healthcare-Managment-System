@@ -1,0 +1,92 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f8fb;
+    background-image: url("../Source/lofgin\ 3.png.");
+    background-position: center;
+    background-size: cover;
+    color:aliceblue;
+}
+
+main {
+    max-width: 500px;
+    height: auto;
+    margin: 120px 60px;
+    padding: 20px 30px 40px; /* Increased right padding */
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgb(85, 85, 85);
+    background:transparent;
+
+}
+
+main h1 {
+    text-align: center;
+    color: aliceblue;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding-right: 20px; /* Additional padding for the form */
+}
+
+label {
+    margin-top: 10px;
+    text-align: left;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+textarea {
+    width: calc(100% - 20px); /* Adjust width to account for padding */
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    width: 100%;
+}
+
+select
+{
+    width: calc(100% - 20px); /* Adjust width to account for padding */
+    padding: 8px;
+    width: 100%;
+    margin-top: 5px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+.button
+{
+    
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.button input[type="submit"]
+{
+    width: 100%;
+    padding: 10px 60px;
+    background-color:  #339dc7;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.4);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 17px;
+
+}
+
+fieldset {
+    border: none;
+    margin-top: 20px;
+}
+
+legend {
+    font-weight: bold;
+}

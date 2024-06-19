@@ -1,0 +1,146 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body
+{
+    
+    text-align: center;
+    background-color: aliceblue;
+    font-family: "Poppins", sans-serif;
+    overflow-x: hidden;
+}
+
+
+a
+{
+    text-decoration: none;
+}
+
+
+
+.top-container 
+{
+
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%
+    
+}
+
+#navbar-bg{
+    background-color:rgba(89, 97, 109, 0.452);
+    transition: 0.5 all ease-in-out;
+}
+
+
+.top-container img
+{
+    width: 150px;
+    height: 150px;
+}
+
+.top-container nav
+{
+    margin-right:20px;
+
+}
+
+.top-container ul
+{
+    
+    list-style: none;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.top-container ul li
+{
+    margin-left: 35px;
+    
+}
+
+.top-container ul li a
+{
+    
+    color: azure;
+    text-decoration: none;
+
+}
+
+.top-container ul li a:hover
+{
+    color: #0a0a0a;
+    
+}
+
+.top-container ul a .reg:hover
+{
+    color:azure;
+    
+}
+
+.reg span
+{
+    margin-right: 15px;
+}
+
+.top-container .profile
+{
+    display: flex;
+    justify-content: center;
+}
+
+.profile
+{
+    display: flex;
+    justify-content: center;
+    gap: 7px;
+    align-items: center;
+    margin-right: 20px;
+}
+
+
+.top-container .profile  img
+{
+    margin-right: 30px;
+    width: 50px;
+    height: auto;
+}
+
+.profile .logout a
+{
+    color: azure;
+    border: 2px rgb(233, 90, 38) solid;
+    padding: 8px 30px 8px 30px;
+    border-radius: 8px;
+    box-shadow: 0 7px 15px rgba(0,0,0,0.1)
+}
+
+.top-container ul li .home
+{
+    background-color: #7e7e7e;
+    border-radius: 10px;
+    font-family: "Poppins", sans-serif;
+    color:azure;
+    padding: 2px 30px 2px 30px;
+    border: none;
+}
+
+.top-container ul li .home:hover
+{
+    background: #3b3b3b;
+    transform: scale(1.02);
+    
+}

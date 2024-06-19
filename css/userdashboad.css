@@ -1,0 +1,265 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    text-align: center;
+    background-color: aliceblue;
+    font-family: "Poppins", sans-serif;
+    overflow-x: hidden;
+
+    
+}
+
+a
+{
+    text-decoration: none;
+}
+
+.dashboard
+{
+    padding: 0px 50px ;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.summary
+{
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    gap: 10px;
+    text-align: justify;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+.user-details
+{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 33%;
+    box-shadow: 0 7px 15px rgba(0,0,0,0.1);
+    padding: 40px 50px 40px 50px;
+}
+
+.user-details .title
+{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+
+}
+
+
+.user-details .name p
+{
+    border: 1px solid black;
+    padding: 5px 50px 5px 10px;
+    border-radius: 10px;
+    background-color: aliceblue;
+    color: grey;
+
+}
+
+.user-details .button
+{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    margin-top: 20px;
+}
+
+.user-details .button a
+{
+    padding: 5px 20px;
+    background-color: #34a6db;
+    box-shadow: 0 4px 8px #bebebe;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.delete input[type="submit"]
+{
+    background-color: rgb(238, 35, 35);
+    margin-left: 50px;
+    padding: 8px 20px;
+    box-shadow: 0 4px 8px #bebebe;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.details
+{
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0 4px 8px #666362;
+    background-color:#5BBCFF;
+    position: relative;
+}
+
+.details img
+{
+    width: 150px;
+    height: 150px;
+}
+
+.details h4
+{
+    margin-top: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.details .file 
+{
+    margin-top: 40px;
+    width: 350px;
+}
+
+.details .file a
+{
+    color: rgb(44, 146, 194);
+    padding: 15px 100px 15px 100px;
+    background-color:aliceblue;
+    border-radius: 40px;
+}
+
+.request-plan
+{
+    color: rgb(46, 46, 46);
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    padding: 5px 10px;
+    width: 150px;
+    background-color: rgb(204, 204, 204);
+    border-radius: 5px;
+}
+
+.password-details
+{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+    width: 350px;
+    padding: 40px 20px;
+    box-shadow: 0 7px 15px rgba(0,0,0,0.1);
+    height: 53vh;
+}
+
+.title
+{
+    width: 100%;
+    text-align: center;
+}
+
+.password-details input[type="password"],input[type="text"]
+{
+    margin-top: 9px;
+    width: 95%;
+    padding: 10px 15px;
+    border-radius: 9px;
+    border: 1px solid black;
+
+    
+}
+
+
+.password-details input[type="submit"]
+{
+    
+    margin-top: 25px;
+    padding: 15px 30px;
+    background-color: #2174f0;
+    margin-left: 80px;
+    padding: 8px 20px;
+    box-shadow: 0 4px 8px #bebebe;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+
+
+.claim
+{
+    width: 100%;
+    margin-top: 30px;
+    padding: 40px 50px 40px 50px;
+    box-shadow: 0 4px 8px #a8f5f5;
+    border-radius: 10px;
+}
+
+.claim-summary table
+{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td 
+{
+    border: 1px solid rgb(12, 12, 12);
+    padding: 8px;
+    text-align: left;
+}
+
+th 
+{
+    background-color: #f2f2f2;
+    border: 1px solid aliceblue;
+}
+
+table
+{
+    margin-top: 30px;
+    
+}
+
+.claim-summary .title th
+{
+    background-color: rgb(63, 63, 63);
+    color: aliceblue;
+    text-align: center;
+
+}
+
+.sum-button
+{
+    display: flex;
+    justify-content: end;
+
+}
+
+.sum-button input[type="submit"]
+{
+    margin-top: 20px;
+    align-items: center;
+    padding: 5px 20px;
+    background-color: #2174f0;
+    box-shadow: 0 4px 8px #bebebe;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}

@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body
+{
+    background-color: rgb(132, 191, 243);
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    overflow-x: hidden;   
+}
+
+.container
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.card
+{
+    display: flex;
+    justify-content:start;
+    flex-direction:column;
+    padding: 45px 45px;
+    background-color: aliceblue;
+    border-radius: 3px;
+    box-shadow: 0 4px 8px #464646;
+    background: transparent;
+}
+
+.title
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 15px;
+    text-align: center;
+}
+
+form
+{
+    margin-top: 20px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.userid
+{
+    margin-top: 10px;
+}
+
+
+.userid input[type="text"]
+{
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+.userid input[type="email"]
+{
+    width: 100%;
+    padding: 8px;
+    margin-top: 5px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+
+
+.button
+{
+    
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.button input[type="submit"]
+{
+    width: 100%;
+    padding: 10px 60px;
+    background-color:  #12a4ff;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 17px;
+
+}
+
+
+

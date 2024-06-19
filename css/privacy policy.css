@@ -1,0 +1,69 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body
+{
+    
+    text-align: center;
+    background-color:white;
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    overflow-x: hidden;
+}
+
+.container{
+
+    display:flex;
+}
+
+.box-1
+{
+
+    height:200px;
+    width:100%;
+    background-image: url("Source/policy.jpeg");
+
+}
+
+
+.container-1{
+
+    display:flex;
+}
+
+.box-2{
+
+    text-align: left;
+    margin-left:100px;
+    line-height:30px;
+    width: 1200PX;
+    background-color:aliceblue;
+    padding: 20px 30px;
+    box-shadow: 0 4px 8px #2cc0e6;
+    margin-top: 20PX;
+    margin-bottom: 40px;
+
+
+}
+ 
+.box-2 h1{
+
+    
+    margin-top:60px;
+    margin-right:800px;
+    margin-bottom: 10px;
+    color: rgb(12, 167, 167);
+    font-size:25px;
+}
+
+.box-2 p
+{
+    font-weight: 500;
+
+}

@@ -1,0 +1,138 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body
+{
+    
+    text-align: center;
+    background-color: aliceblue;
+    font-family: "Poppins", sans-serif;
+    overflow-x: hidden;
+    z-index: 5;
+}
+
+
+a
+{
+    text-decoration: none;
+}
+
+
+
+.top-container 
+{
+
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    background-color:rgba(89, 97, 109, 0.452);
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%
+    
+}
+
+
+.top-container img
+{
+    width: 150px;
+    height: 150px;
+}
+
+.top-container nav
+{
+    margin-right:20px;
+
+}
+
+.top-container ul
+{
+    
+    list-style: none;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.top-container ul li
+{
+    margin-left: 35px;
+    
+}
+
+.top-container ul li a
+{
+    
+    color: azure;
+    text-decoration: none;
+
+}
+
+.top-container ul li a:hover
+{
+    color: #0a0a0a;
+    
+}
+
+.top-container ul a .reg:hover
+{
+    color:azure;
+    
+}
+
+.reg span
+{
+    margin-right: 15px;
+}
+
+.top-container .reg a .login
+{
+    text-decoration: none;
+    background-color: #34a6db;
+    border-radius: 8px;
+    font-family: "Poppins", sans-serif;
+    color:azure;
+    padding: 9px 30px 9px 30px;
+    border: none;
+}
+
+.top-container .reg a .login:hover
+{
+    background: #12a4ff;
+    
+    
+}
+
+.top-container .reg a .sign 
+{
+    color: azure;
+    border: 2px #34a6db solid;
+    padding: 8px 30px 8px 30px;
+    border-radius: 8px;
+
+}
+
+.top-container ul li .home
+{
+    background-color: #7e7e7e;
+    border-radius: 10px;
+    font-family: "Poppins", sans-serif;
+    color:azure;
+    padding: 2px 30px 2px 30px;
+    border: none;
+}
+
+.top-container ul li .home:hover
+{
+    background: #3b3b3b;
+    transform: scale(1.02);
+    
+}
